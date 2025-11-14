@@ -1,0 +1,37 @@
+-----------------git --version-----------------
+-----------------ls-----------------
+
+==============================================================================================================
+configure Git in VS code
+1. -----------------git config --gloabl user.name "ssatyal916"-----------------
+2. -----------------git config --global user.email "ssatyal916@gmail.com"
+3. -----------------git config --list
+==============================================================================================================
+Clone & Status
+Clone : To copy from github to local
+1. copy repo url from git hub and execute below command
+2. -----------------git clone url from github
+==============================================================================================================
+To check any changes or current status use below command
+File status
+    1. untracked : new files that git doesn't track
+    2. modified : changed
+    3. staged : file is ready to be commited
+    4. unmodified : unchanged
+-----------------git status
+==============================================================================================================
+---After updating or creating new files in local inorder to commit you have to add using below command
+-----------------git add filename
+-----------------git commit -m "Custom Message"
+==============================================================================================================
+To push to github use below commmand
+-----------------git push origin main
+
+If above code not works use below additional code
+-----------------git remote -v
+-----------------origin  https://github.com/username/repository.git (fetch)
+-----------------origin  https://github.com/username/repository.git (push)
+-----------------git remote set-url origin https://github.com/correct-username/repository.git
+-----------------git push origin main
+==============================================================================================================
+
