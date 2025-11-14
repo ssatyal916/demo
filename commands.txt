@@ -13,12 +13,12 @@ Clone : To copy from github to local
 2. -----------------git clone url from github
 ==============================================================================================================
 To check any changes or current status use below command
+-----------------git status
 File status
     1. untracked : new files that git doesn't track
     2. modified : changed
     3. staged : file is ready to be commited
     4. unmodified : unchanged
------------------git status
 ==============================================================================================================
 ---After updating or creating new files in local inorder to commit you have to add using below command
 -----------------git add filename
