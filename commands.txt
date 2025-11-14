@@ -34,4 +34,10 @@ If above code not works use below additional code
 -----------------git remote set-url origin https://github.com/correct-username/repository.git
 -----------------git push origin main
 ==============================================================================================================
-
+new folder to be sync with Git hub
+    1. -------------------git init : used to create a new git repo
+    2. create repo in github and dont select readme file in github and copy url from github to make origin
+    3. git remote add origin https://github.com/ssatyal916/Localrepo.git (url from second step)
+    4. To check git remote orgin use command -----------------------git remote -v
+    5. to check on which branch use command git branch
+    6. To rename branch name use command git branch -M main1
