@@ -1,4 +1,4 @@
 # demo
 This demo repo
 <br>
-Author - Siddu
+Author - Siddu Satyal
